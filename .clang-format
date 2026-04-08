@@ -1,0 +1,141 @@
+Language: Cpp
+
+ColumnLimit: 80
+TabWidth: 4
+UseTab: Never
+
+IndentWidth: 4
+AccessModifierOffset: -4
+ConstructorInitializerIndentWidth: 0
+ContinuationIndentWidth: 4
+IndentAccessModifiers: false
+IndentCaseBlocks: false
+IndentCaseLabels: false
+IndentExportBlock: false
+IndentExternBlock: NoIndent
+IndentGotoLabels: false
+IndentPPDirectives: BeforeHash
+IndentRequiresClause: false
+IndentWrappedFunctionNames: false
+LambdaBodyIndentation: Signature
+NamespaceIndentation: None
+RequiresExpressionIndentation: OuterScope
+
+AlignAfterOpenBracket: true
+AlignArrayOfStructures: None
+AlignConsecutiveAssignments: None
+AlignConsecutiveBitFields: None
+AlignConsecutiveDeclarations: None
+AlignConsecutiveMacros: Consecutive
+AlignConsecutiveShortCaseStatements:
+  Enabled: true
+  AcrossComments: true
+AlignEscapedNewlines: LeftWithLastLine
+AlignOperands: AlignAfterOperator
+AlignTrailingComments:
+  Kind: Always
+  OverEmptyLines: 0
+PointerAlignment: Left
+
+AllowShortBlocksOnASingleLine: Empty
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortCompoundRequirementOnASingleLine: true
+AllowShortEnumsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLambdasOnASingleLine: All
+AllowShortLoopsOnASingleLine: false
+AllowShortNamespacesOnASingleLine: false
+
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowBreakBeforeNoexceptSpecifier: Never
+AlwaysBreakBeforeMultilineStrings: false
+BinPackArguments: false
+BinPackParameters: OnePerLine
+
+BitFieldColonSpacing: None
+SpaceAfterCStyleCast: false
+SpaceAfterLogicalNot: false
+SpaceAfterOperatorKeyword: false
+SpaceAfterTemplateKeyword: true
+SpaceAroundPointerQualifiers: Default
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCaseColon: false
+SpaceBeforeCpp11BracedList: false
+SpaceBeforeCtorInitializerColon: true
+# SpaceBeforeEnumUnderlyingTypeColon: true
+SpaceBeforeInheritanceColon: true
+SpaceBeforeParens: ControlStatements
+SpaceBeforeRangeBasedForLoopColon: true
+SpaceBeforeSquareBrackets: false
+SpacesBeforeTrailingComments: 1
+SpacesInAngles: Never
+SpacesInParens: Never
+SpacesInSquareBrackets: false
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel: false
+  AfterClass: false
+  AfterEnum: false
+  AfterFunction: false
+  AfterNamespace: false
+  AfterStruct: false
+  AfterUnion: false
+  AfterExternBlock: false
+  BeforeCatch: false
+  BeforeElse: false
+  BeforeLambdaBody: false
+  BeforeWhile: false
+  IndentBraces: false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+BreakAdjacentStringLiterals: true
+BreakAfterAttributes: Leave
+BreakAfterOpenBracketBracedList: true
+BreakAfterOpenBracketFunction: true
+BreakAfterOpenBracketIf: true
+BreakAfterOpenBracketLoop: true
+BreakAfterOpenBracketSwitch: true
+BreakAfterReturnType: Automatic
+BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeCloseBracketBracedList: true
+BreakBeforeCloseBracketFunction: true
+BreakBeforeCloseBracketIf: true
+BreakBeforeCloseBracketLoop: true
+BreakBeforeCloseBracketSwitch: true
+BreakBeforeConceptDeclarations: Always
+BreakBeforeInlineASMColon: OnlyMultiline
+BreakBeforeTemplateCloser: true
+BreakBeforeTernaryOperators: true
+BreakBinaryOperations: OnePerLine
+BreakConstructorInitializers: BeforeComma
+BreakFunctionDefinitionParameters: false
+BreakInheritanceList: BeforeComma
+BreakStringLiterals: false
+BreakTemplateDeclarations: Yes
+CompactNamespaces: false
+Cpp11BracedListStyle: FunctionCall
+PackConstructorInitializers: NextLine
+
+EmptyLineAfterAccessModifier: Never
+EmptyLineBeforeAccessModifier: LogicalBlock
+FixNamespaceComments: true
+IncludeBlocks: Preserve
+InsertBraces: true
+InsertNewlineAtEOF: true
+KeepEmptyLines:
+  AtEndOfFile: true
+  AtStartOfBlock: false
+  AtStartOfFile: false
+ReflowComments: Always
+RemoveEmptyLinesInUnwrappedLines: true
+RequiresClausePosition: OwnLine
+SeparateDefinitionBlocks: Always
+ShortNamespaceLines: 0
+SortIncludes:
+  Enabled: true
+  IgnoreCase: false
+SortUsingDeclarations: LexicographicNumeric
